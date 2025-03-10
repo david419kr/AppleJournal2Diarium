@@ -1,13 +1,13 @@
 # Apple Journal to Diarium (or maybe Diaro) Migration Tool
 
-I just couldn't believe that this kind of Apple Journal migration tool still doesn't exist, so I made it myself.
-This tool allows you to migrate your entries from Apple Journal to Diarium by converting Apple Journal's HTML export to a format that can be imported into Diarium.
-Tested on Apple Journal backup from English and Korean language iPhone, and Diarium Android version.
+I just couldn't believe that this kind of Apple Journal migration tool still doesn't exist, so I made it myself.  
+This tool allows you to migrate your entries from Apple Journal to Diarium by converting Apple Journal's HTML export to a format that can be imported into Diarium.  
+Tested on Apple Journal backup from English and Korean language iPhone, and Diarium Android version.  
 
 ## Overview
 
-This Python script parses the HTML export from Apple Journal and converts it into trimmed Diaro backup format, which can be imported into the Diarium app. The tool preserves your journal entries including titles, dates, content, and photos.
-While it uses Diaro's backup format, it's roughly trimmed for Diarium import and may not be compatible with Diaro directly. If you want to migrate to Diaro, refer "Notes" section below.
+This Python script parses the HTML export from Apple Journal and converts it into trimmed Diaro backup format, which can be imported into the Diarium app. The tool preserves your journal entries including titles, dates, content, and photos.  
+While it uses Diaro's backup format, it's roughly trimmed for Diarium import and may not be compatible with Diaro directly. If you want to migrate to Diaro, refer "Notes" section below.  
 
 ## Prerequisites
 
