@@ -9,6 +9,12 @@ Tested on Apple Journal backup from English and Korean language iPhone, and Diar
 This Python script parses the HTML export from Apple Journal and converts it into trimmed Diaro backup format, which can be imported into the Diarium app. The tool preserves your journal entries including titles, dates, content, and photos.  
 While it uses Diaro's backup format, it's roughly trimmed for Diarium import and may not be compatible with Diaro directly. If you want to migrate to Diaro, refer "Notes" section below.  
 
+## Limitations
+
+- The script preserves text content and photos, but may not transfer other types of attachments, such as audio or video.
+- Some formatting or special features from Apple Journal might not be preserved in the migration.
+- As Apple Journal's export feature lacks precise timestamp information, date calculations are processed quite approximately. Occasionally, there may be date discrepancies of up to a day, and upload times are determined arbitrarily.
+
 ## Prerequisites
 
 - Python 3.x
@@ -48,8 +54,3 @@ python run.py
 ## Troubleshooting
 
 - If you encounter any file not found errors, make sure your `AppleJournalEntries` folder is correctly placed.
-
-## Limitations
-
-- The script preserves text content and photos, but may not transfer other types of attachments
-- Some formatting or special features from Apple Journal might not be preserved in the migration
