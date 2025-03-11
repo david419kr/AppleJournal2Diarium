@@ -28,7 +28,7 @@ While it uses Diaro's backup format, it's roughly trimmed for Diarium import and
 2. Unzip it. `AppleJournalEntries` might be there now.
 
 ### Step 2: Prepare the Script
-1. Clone this repo or download as ZIP, then place `AppleJournalEntries` folder in the project root directory. (where readme.md and run.py exists)
+1. Clone this repo or [download as ZIP](https://github.com/david419kr/AppleJournal2Diarium/archive/refs/heads/main.zip), then place `AppleJournalEntries` folder in the project root directory. (where readme.md and run.py exists)
 
 ### Step 3: Run the Script
 python run.py
